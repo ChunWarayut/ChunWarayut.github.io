@@ -1,7 +1,44 @@
 <!DOCTYPE html>
-<head>
-  <title>Hello Github Pages</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>daily-life-corporation-vuejs</title>
+    
+  <!-- CSS -->
+  <link href="<%= BASE_URL %>css/simple-sidebar.css" rel="stylesheet" type="text/css" />
+  <link href="<%= BASE_URL %>css/style.css" rel="stylesheet" type="text/css" />
+  <link href="<%= BASE_URL %>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  </head>
   <body>
-    <h1>Hello Github Pages</h1>
+    <noscript>
+      <strong>We're sorry but daily-life-corporation-vuejs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+
+    
+  <!-- JS -->
+  <script src="<%= BASE_URL %>js/jquery.min.js"></script>
+  <script src="<%= BASE_URL %>js/bootstrap.min.js"></script>
+
+  <script>
+    function menu_toggle() {
+      $("#wrapper").toggleClass("toggled");
+    }
+  </script>
+
+
+
   </body>
 </html>
